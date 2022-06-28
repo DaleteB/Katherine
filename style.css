@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: black;
+}
+
+.happy-birthday{
+    display: block;
+    text-align: center;
+    margin: 120px 60px;
+    padding: 50px;
+    
+}
+
+
+.happyBirthday{
+    font-size: 30px;
+    margin: 60px;
+    padding: 20px;
+    
+}
+
+.happyBirthday h1 {
+    animation: neon1 1.5s ease-in-out infinite alternate;
+    color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(148, 41, 202),
+      0 0 82px rgb(148, 41, 202),
+      0 0 92px rgb(148, 41, 202),
+      0 0 102px rgb(148, 41, 202),
+      0 0 151px rgb(148, 41, 202);
+}
+
+.happyBirthday p {
+    color: #fff;
+}
+
+.doggy{
+    max-width: 150px;
+    position: relative;
+    left: -250px;
+    top: 0;
+}
+
+.bunny{
+    max-width: 150px;
+    position: relative;
+    right: -250px;
+    top: 0;
+}
+
+.gifts{
+    max-width: 150px;
+}
+
+.bDay{
+    max-width: 300px;
+    position: relative;
+    top: 0;
+    right: -0px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.happyBirthday:nth-child(1) {
+    font-family: Monoton;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+
+@keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(148, 41, 202),
+        0 0 70px rgb(148, 41, 202), 0 0 80px rgb(148, 41, 202), 0 0 100px rgb(148, 41, 202), 0 0 150px rgb(148, 41, 202);
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(148, 41, 202),
+        0 0 35px rgb(148, 41, 202), 0 0 40px rgb(148, 41, 202), 0 0 50px rgb(148, 41, 202), 0 0 75px rgb(148, 41, 202);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    * {
+     margin: 0;
+     padding: 0; 
+    }
+
+    .happy-birthday{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .happyBirthday{
+        font-size: 18px;
+        margin: 30px;
+        padding: 10px;
+        
+    }
+    .doggy{
+        max-width: 100px;
+        position: relative;
+        left: -19px;
+        top: 68px;
+    }
+    
+    .bunny{
+        max-width: 100px;
+        position: relative;
+        right: -14px;
+        top: 68px;
+    }
+    
+    .gifts{
+        max-width: 100px;
+    }
+    
+    .bDay{
+        max-width: 160px;
+        position: relative;
+        top: 0;
+        right: -0px;
+    }
+
+    .image1{
+        display: block;
+        text-align: center;
+        max-width: 250px;
+    }
+    
+    .image2{
+        display: block;
+        text-align: center;
+        max-width: 250px;
+    }
+  }
+  
