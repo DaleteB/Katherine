@@ -109,14 +109,14 @@ h1{
     .doggy{
         max-width: 100px;
         position: relative;
-        left: -19px;
+        left: -14px;
         top: 68px;
     }
     
     .bunny{
         max-width: 100px;
         position: relative;
-        right: -14px;
+        right: -5px;
         top: 68px;
     }
     
@@ -131,16 +131,20 @@ h1{
         right: -0px;
     }
 
+    .container{
+        margin: 0px;
+        padding: 0px;
+    }
     .image1{
         display: block;
         text-align: center;
-        width: 500px;
+        width: 100%;
     }
     
     .image2{
         display: block;
         text-align: center;
-        width: 500px;
+        width: 100%;
     }
   }
   
